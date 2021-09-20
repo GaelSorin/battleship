@@ -29,6 +29,9 @@
                 this.tries[line][col] = hasSucced;
             }, this));
         },
+        setGame: function(){
+
+        },
         // quand il est attaqué le joueur doit dire si il a un bateaux ou non à l'emplacement choisi par l'adversaire
         receiveAttack: function (col, line, callback) {
             var succeed = false;

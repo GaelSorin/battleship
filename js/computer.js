@@ -17,6 +17,9 @@
                 });
             }, 2000);
         },
+        setGame: function(){
+
+        },
         areShipsOk: function (callback) {
             var i = 0;
             var j;
